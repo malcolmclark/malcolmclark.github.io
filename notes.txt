@@ -1,0 +1,27 @@
+TODO
+
+- Home Page - Bootstrap?
+- Star Rating
+- Comments
+- Jekyll hmmm
+
+V0.1.2
+- Added simple php templating for multiple pages.
+- Moved repo from JSandbox to malcolmclark.github.io to allow use of Github hosting.
+- To view old see C:\Users\User\Dropbox\Projects\JSandbox repo.
+- src docs cached to create static htm files for github.
+
+
+V0.1.1
+- Embraced code in IIFE in doDemo() to avoid namespace collisions, even though it appears that when strict mode ie when let or var required to declare vars, any existing var is overwritten.
+- Thought of adding <code> in <pre> but it aint broke so dont fix and why is code tag so important?
+- Fixed console.log function augmentation. 
+
+
+V0.1.0
+
+- Significant progress over V0.0.1., which was inline and code was duplicated manually into script tags. Yuk!
+- Now modular design, where main js is in codeApp.js
+- codeApp.js manages prettify by making sure it does not fire (ie contaminate code in pre tags with html tags) until all pre tags have been cloned.
+
+V0.0.1

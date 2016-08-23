@@ -1,0 +1,9 @@
+# untracked folders
+
+node_modules
+_setup
+content-of-external-material
+
+# untracked files
+
+Thumbs.db

@@ -1,0 +1,26 @@
+code {
+
+	    background-color: rgb(244, 251, 244);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+}
+
+.codeApp{
+	margin-bottom: 40px;
+	border: 2px solid rgb(245, 202, 150);
+	padding: 9px;
+}
+
+.codeApp .button {
+    display: block;
+    width: 100px;
+    height: 17px;
+    background: rgb(0, 117, 36);
+    padding: 4px;
+    text-align: center;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 18px;
+}
