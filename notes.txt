@@ -5,6 +5,24 @@ TODO
 - Comments
 - Jekyll hmmm
 
+V1.3
+
+BOOTSTRAP
+~~~~~~~~~
+
+- Bootstrap 4!
+	- Had to change column classes eg col-sm-3
+	- Use of button classes for Run Code buttons.
+	
+- jQuery.tocify does not support Bootstrap V3. Have tried alleged solution for BS3, the tocify css v1.9.1, but still does not work.
+- So, I have manually added support for <kbd> in BStrp V2.3.2. - bootstrap-mjcc.css
+
+PHP TPLs
+~~~~~~~~
+
+- Migrated more header and footer of body html into templates. Now each created page will be original content only.
+
+
 V0.1.2
 - Added simple php templating for multiple pages.
 - Moved repo from JSandbox to malcolmclark.github.io to allow use of Github hosting.

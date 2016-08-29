@@ -1,18 +1,8 @@
 <?php
 $title = "ES6 - ECMAScript2015";
-include "header.php";
+include "header.htm";
 ?>
-<body>
-  <div class="container-fluid">
-    <div class="row-fluid">
-      <div class="span3">
-        <div id="toc-wrapper">
-          <div id="toc"></div>
-        </div>
-        <div id="output"></div>
-      </div>
-      <div class="span9">
-        <div id="console"></div>
+
         <section>
           <h1>ES6 - ECMAScript2015
         </h1>
@@ -149,10 +139,7 @@ sumUp(1, 4, 7, 4)</pre>
             </article>
           </section>
         </section>
-      </div>
-    </div>
-  </div>
-</body>
+
 <?php
-include "footer.php";
+include "footer.htm";
 ?>

@@ -1,3 +1,4 @@
+
 let codeApp = (function() {
 
     /**
@@ -82,7 +83,7 @@ let codeApp = (function() {
                 .insertAfter($("pre#" + demoId))
                 .hide()
 
-            $(`<p><i>View this code also in browser console  - Win (F12)/ Mac (Cmd+Opt+I).</i></p>`)
+            $(`<p><i>View this code also in browser console  - Win <kbd>Ctl+Sh+I</kbd> or <kbd>F12</kbd> | Mac <kbd>Cmd+Opt+I</kbd>.</i></p>`)
                 .insertAfter(newElem)
 
 
@@ -107,6 +108,7 @@ let codeApp = (function() {
 
             newElem.slideToggle('slow') // reveal and slide out new tag 
 
+            $('div.codeApp button.' + demoId).remove()
             $('div.codeApp a.' + demoId).remove()
 
         } else {
