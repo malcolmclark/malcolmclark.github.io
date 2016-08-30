@@ -1,9 +1,37 @@
-TODO
+DESC
+~~~~
 
+
+
+TODO
+~~~~
+
+- grn Run Code buttons are btn-success? Decide on color palette. 
+- gitignore bs folders?
+- How to batch create .htm site?
 - Home Page - Bootstrap?
+
 - Star Rating
 - Comments
+
 - Jekyll hmmm
+
+PRODUCTION
+~~~~~~~~~~
+
+- Use .min files.
+
+V1.4
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+BOOTSTRAP
+~~~~~~~~~
+- Added BS V2.3.2 styles like eg nav-list to styles.css. This makes TOC work with rollover cols.
+- Started adding custom styles in styles.css for the BS TPL.
+
+PHP TPL
+~~~
+- Custom header img for each page.
 
 V1.3
 

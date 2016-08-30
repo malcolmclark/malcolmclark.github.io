@@ -109,8 +109,7 @@ let codeApp = (function() {
             newElem.slideToggle('slow') // reveal and slide out new tag 
 
             $('div.codeApp button.' + demoId).remove()
-            $('div.codeApp a.' + demoId).remove()
-
+            
         } else {
             return false
         }

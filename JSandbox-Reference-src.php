@@ -1,9 +1,19 @@
 <?php
 $title = "JS Reference Sandbox";
+$header_img = "header1.jpg";
 include "header.htm";
 ?>
         <section>
           <h1>My JSandbox </h1>
+          <section>
+            <h2>Overview</h2>
+<p>            This JS sandbox is my own attempt at learning the language. I recognise that writing things down and indeed teaching are ways to master anything and to help others at the same time.</p>
+<p>So, of course there will be mistakes, and feedback is welcome.</p>      <br>
+<p>My main interest is the evolution of the human mind and the recognition that computer programming will always be limited and flawed as we seek to merge with ever higher intelligences - intuition, and soul fusion. Just like the Big Bang theory, the lastest avant guarde programming techniques only represent the most recently accepted lie about reality.</p>
+
+<br>
+
+</section>
           <section>
             <h2>Error Handling </h2>
             <article>

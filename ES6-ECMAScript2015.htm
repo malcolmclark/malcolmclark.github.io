@@ -15,7 +15,7 @@
 <!--   <link type="text/css" rel="stylesheet" href="bootstrap-2.3.2/css/bootstrap-mjcc.css" />
 
  -->
-  <link type="text/css" rel="stylesheet" href="bootstrap-4a3/css/bootstrap.min.css" />
+  <link type="text/css" rel="stylesheet" href="bootstrap-4a3/css/bootstrap.css" />
 
  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
  -->
@@ -33,7 +33,7 @@
   <link type="text/css" rel="stylesheet" href="jquery.tocify.css" />
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="bootstrap-4a3/js/bootstrap.js"></script>
 
 
   <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
@@ -44,7 +44,7 @@
 
     // Table o Contents for LH Sidebar. What to display
     $("#toc").tocify({
-       theme: "bootstrap3", // Added as per
+       theme: "bootstrap", // Added as per
       selectors: "h1,h2,h3,h4"
     });
 
@@ -55,7 +55,13 @@
 </head>
 <body>
   <div class="container-fluid">
-
+  <!-- <div class="row-fluid">
+    <div class="col-sm-12">
+      <header>
+        <img src="./images/header1.jpg" class="img-fluid m-x-auto img-circle" alt="">
+      </header>
+    </div>
+  </div> -->
     <div class="row-fluid">
       <div class="col-sm-3">
         <div id="toc-wrapper">
@@ -64,6 +70,9 @@
         <div id="output"></div>
       </div>
       <div class="col-sm-9">
+       <header>
+        <img src="./images/header2.jpg" class="img-fluid m-x-auto img-circle" alt="">
+      </header>
         <section>
           <h1>ES6 - ECMAScript2015
         </h1>
@@ -175,7 +184,7 @@ function(a = b, b = 7){
 };
 
 sumUp(1, 4, 7, 4)</pre>
-                <a onClick="codeApp.doDemo('sumUp')" class="sumUp button">Run Code</a>
+                <button onClick="codeApp.doDemo('sumUp')" class="sumUp btn btn-success">Run Code</button>
               </div>
               <!--  <script async src="https://jsfiddle.net/ma1colm/9a3tyrkL/embed/"></script> -->
             </section>

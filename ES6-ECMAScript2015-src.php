@@ -1,5 +1,6 @@
 <?php
 $title = "ES6 - ECMAScript2015";
+$header_img = "header2.jpg";
 include "header.htm";
 ?>
 
@@ -114,7 +115,7 @@ function(a = b, b = 7){
 };
 
 sumUp(1, 4, 7, 4)</pre>
-                <a onClick="codeApp.doDemo('sumUp')" class="sumUp button">Run Code</a>
+                <button onClick="codeApp.doDemo('sumUp')" class="sumUp btn btn-success">Run Code</button>
               </div>
               <!--  <script async src="https://jsfiddle.net/ma1colm/9a3tyrkL/embed/"></script> -->
             </section>
