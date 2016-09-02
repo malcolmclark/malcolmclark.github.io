@@ -21,6 +21,13 @@ PRODUCTION
 
 - Use .min files.
 
+v1.5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Added batch htm process. See admin/proc_dir.php
+- Auto adds _blank to http(s) links.
+- Updated jsFiddle links using jsfid logo img.
+
+
 V1.4
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

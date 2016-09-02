@@ -6,6 +6,6 @@
 http://localhost/malcolmclark.github.io/[filename]-src.php 
 ,it compiles a static html page of [filename].htm
 
-2.
+2. Batch compile & copy. See admin/proc_dir.php
 
 

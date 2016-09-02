@@ -1,0 +1,20 @@
+</div>
+</div>
+</div>
+<script src="./codeApp.js"></script>
+</body>
+
+</html>
+<?php
+// print_r($argv[1]);
+$save_file_path = ($argv[1] === 'proc_dir') ? '../dist/' : './dist/';
+// Cache the contents to a file
+// If not created, will create file
+// NB File path! This
+
+$cached = fopen($save_file_path . $cachefile, 'w');
+// $cached = fopen('./dist/' . $cachefile, 'w');
+fwrite($cached, ob_get_contents());
+fclose($cached);
+ob_end_flush(); // Send the output to the browser
+?>
