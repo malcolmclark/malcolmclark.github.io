@@ -6,10 +6,10 @@ DESC
 TODO
 ~~~~
 
-- grn Run Code buttons are btn-success? Decide on color palette. 
-- gitignore bs folders?
-- How to batch create .htm site?
 - Home Page - Bootstrap?
+- grn Run Code buttons are btn-success? Decide on color palette. http://getbootstrap.com/customize/?id=8b91ce177beb7862b797646bb7045276
+- gitignore bs folders?
+
 
 - Star Rating
 - Comments
@@ -21,9 +21,23 @@ PRODUCTION
 
 - Use .min files.
 
+v1.7
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Nav bar.
+
+v1.6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Reorganised file/dir  structures:
+	- Because shell_exec() runs a *-src.php file which itself has an include to a header/ footer.php there is a caveat. The path to the include is relative to the script file running shell_exec() and no longer is it relative to the *-src.php file!
+	- So, template include files are now in root of project in tpl folder, so no workaround by passing in vars to the shell_exec *-src.php file and then accessing them using $argv to fork to the appropriate path. (See footer.php eg - comments)
+	- Most items that Im working on are kept in assets, whereas external libraries are kept in their own separate folder. This makes building dist quicker, and avoids unnecessary update of relatively unchanging ext libs. 
+- CSS Header formatting with indented curly arrows using :before. ES6 class.
+
 v1.5
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- Added batch htm process. See admin/proc_dir.php
+- Reorganised code into src and dist folders.
+- Added batch htm compiler and file copier. See admin/proc_dir.php admin/copy_files.bat
 - Auto adds _blank to http(s) links.
 - Updated jsFiddle links using jsfid logo img.
 

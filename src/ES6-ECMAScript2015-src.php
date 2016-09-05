@@ -1,7 +1,7 @@
 <?php
 $title = "ES6 - ECMAScript2015";
 $header_img = "header2.jpg";
-include "header.htm";
+include "../tpl/header.php";
 ?>
         <section>
           <h1>ES6 - ECMAScript2015
@@ -90,7 +90,7 @@ var button = document.querySelector('button')
 button.addEventListener('click',fn2)</PRE>
                 <p>See how the Fat Arrow kid stays loyal to Daddy here:
                 </p>
-                <a href="https://jsfiddle.net/ma1colm/bvkvrd80/" class="" ><img src="./images/css/jsfiddle.png" alt="View Code on JSFiddle" title="View Code on JSFiddle"></a>
+                <a href="https://jsfiddle.net/ma1colm/bvkvrd80/" class="" ><img src="./assets/images/css/jsfiddle.png" alt="View Code on JSFiddle" title="View Code on JSFiddle"></a>
               </section>
             </section>
                <section>
@@ -144,5 +144,5 @@ sumUp(1, 4, 7, 4)</pre>
         </section>
 
 <?php
-include "footer.htm";
+include "../tpl/footer.php";
 ?>

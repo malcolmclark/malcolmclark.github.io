@@ -1,8 +1,10 @@
 # untracked folders
 
-node_modules
-_setup
-content-of-external-material
+node_modules/
+_setup/
+content-of-external-material/
+# dist/
+
 
 # untracked files
 
