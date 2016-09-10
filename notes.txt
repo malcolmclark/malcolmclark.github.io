@@ -1,30 +1,57 @@
 DESC
 ~~~~
 
+- Nice structured presentation of code samples or whatever you want.
+- Designed for Github i.e. it spits out html pages for gh-pages.
 
 
 TODO
 ~~~~
 
+- Setup on Linux and create .sh file, edit build-dist file.
+- Use tpl sys like moustache to create codeApp blocks to homogonize code presentation, and make any changes to tpl apply across all instances.
+- Remove TOC for mobiles <400 so px?
 - Home Page - Bootstrap?
 - grn Run Code buttons are btn-success? Decide on color palette. http://getbootstrap.com/customize/?id=8b91ce177beb7862b797646bb7045276
 - gitignore bs folders?
-
-
+- Needs index.htm and er... a website with menus  :)
 - Star Rating
 - Comments
 
 - Jekyll hmmm
+
+COMMENT
+~~~~~~~
+
+- re: web pages in sub folder. Whats wrong with redirecting to /dist folder from an index.htm in root?
+- ES6 stuff like Math.sign() Crept into JS refernce page!
+
+MACHINATIONS
+~~~~~~~~~~~~
+
+When a *-src.php file is run, caching code in header.php spits out htm file.
 
 PRODUCTION
 ~~~~~~~~~~
 
 - Use .min files.
 
+v1.8
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 v1.7
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Nav bar.
+- Green Ampelman. Fixed Pos. Cld be tree.
+- copy_files.bat now removes assets before updating.
+- CSS
+	-	Tag formatting 
+	-	<HR> spacers to clarify where content ends prior to next heading.
+	-	ES6 Yellow Red highlighter. 
+- Cleaned up files like..er...this one  :)
+- Edited tocify.js to add id tag as anchor, so internal page links work inline with toc menu links which use the data-unique val.
 
 v1.6
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
